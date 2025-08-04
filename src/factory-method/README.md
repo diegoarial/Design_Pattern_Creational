@@ -1,14 +1,8 @@
 # Factory Method - Creational (Criação)
 
-## Minha Opinião
-
-A parte que mais me interessou foi o fato da criação de novas factories sem a necessidade de modificar o código já escrito, o método segue o princípio de aberto para extensão e fechado para modificação com rigor, e organiza o código de uma maneira simples de entender.
-
----
-
 ## Intenção
 
-*Definir uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. O Factory Method permite adiar a instanciação para as subclasses.*
+_Definir uma interface para criar um objeto, mas deixar as subclasses decidirem que classe instanciar. O Factory Method permite adiar a instanciação para as subclasses._
 
 ---
 
@@ -44,9 +38,11 @@ Observação importante: todos os objetos criados por um factory method tendem a
 O que é bom ou ruim no Factory Method:
 
 **Bom:**
+
 - Ajuda a aplicar o Open/Closed Principle. Seu código vai estar aberto para extensão
 - Ajuda na aplicação do Single Responsibility Principle. Separa o código que cria do código que usa o objeto
 - Ajuda no desacoplamento do seu código
 
 **Ruim:**
+
 - Pode causar uma explosão de subclasses. Será necessário uma classe Creator para cada ConcreteProduct. Só é vantajoso quando já seria necessário estender a classe Creator na estrutura

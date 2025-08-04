@@ -1,12 +1,8 @@
 # Prototype - Creational (Criação)
 
-## Minha Opinião
-
-Simples de entender, existem semelhanças com métodos de herança, o que facilitou o entendimento. O clone ajuda muito em situações onde podem substituir subclasses.
-
 ## Intenção
 
-*Especificar os tipos de objetos a serem criados usando uma instância-protótipo e criar novos objetos pela cópia desse protótipo.*
+_Especificar os tipos de objetos a serem criados usando uma instância-protótipo e criar novos objetos pela cópia desse protótipo._
 
 ---
 
@@ -29,6 +25,7 @@ Use o Prototype quando:
 O que é bom ou ruim no Prototype:
 
 **Bom:**
+
 - Oculta classes concretas do código cliente
 - Ajuda na criação de objetos caros ou complexos
 - Evita a explosão de subclasses
